@@ -13,8 +13,12 @@ repository:
 - The branches cannot be deleted.
 - Some repositories also require status checks to pass before merging.
 
-These rules apply to everyone, including organization owners. Ruleset bypass is
-reserved for emergencies and is not used for normal merges.
+These rules apply to everyone, including organization owners. Only organization
+owners can bypass the organization-wide rules, and only through a pull request.
+Rules that a repository adds itself have no bypass. In an emergency, an
+owner can merge a pull request that does not meet the requirements, and GitHub
+records the bypass. Owners cannot push directly to these branches. Bypass is
+not used for normal merges.
 
 ## How you contribute depends on your repository role
 

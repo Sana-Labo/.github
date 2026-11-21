@@ -80,5 +80,6 @@ request. Write workflows so that this cannot reach trusted infrastructure:
 
 ## Reporting security issues
 
-Do not open a public issue for a security problem. Contact an organization
-owner or a repository maintainer privately.
+Do not open a public issue for a security problem. Report it privately to:
+
+- Lim Jeong Un — <jeongun.lim.001@sanalabo.com>
